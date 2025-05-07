@@ -1,0 +1,14 @@
+# InterPlanetary Knowledge System (IPKS)
+
+**NOTE: The content in these specifications was generated using Claude Sonnet 3.7. with Web Search**
+
+IPKS (InterPlanetary Knowledge System) is a protocol suite that extends IPFS to create a distributed knowledge network where information is semantically connected, cryptographically verified, expertise-validated, and governed through flexible access controls, transforming the document-centric web into an idea-centric internet.
+
+## Specifications
+
+1. [**IPKS Main Specification**](./specs/ipks-main-spec.md): Defines the InterPlanetary Knowledge System, a protocol suite extending IPFS to create a distributed, verifiable knowledge network where information is semantically connected, attribution is cryptographically verified, expertise is credential-validated, and governance controls balance openness with privacy.
+2. [**IPKS Core Knowledge Model Specification**](./specs/ipks-core-spec.md): Establishes the fundamental data structure of Knowledge Nodes with content addressing via K-CIDs (Knowledge Content Identifiers), defines canonical serialization formats, and specifies basic operations for creating, retrieving, and updating knowledge with version history preservation.
+3. [**IPKS Identity & Authorship Specification**](./specs/ipks-identity-spec.md): Integrates Decentralized Identifiers (DIDs) with Knowledge Nodes to provide cryptographic verification of authorship, supports multiple contribution models (single-author, collaborative, organizational), and establishes provenance tracking for knowledge evolution.
+4. [**IPKS Credential Verification Specification**](./specs/ipks-credentials-spec.md): Implements Verifiable Credentials to validate expertise and establish trust in knowledge contributions, defines standard credential types for domain knowledge and organizational roles, and enables privacy-preserving selective disclosure of qualifications.
+5. [**IPKS Semantic Relationship Specification**](./specs/ipks-semantic-spec.md): Creates typed, meaningful connections between Knowledge Nodes using semantic relationships based on RDF/OWL standards, supports both core and domain-specific relationship types, and enables confidence scoring with evidence linking for relationship verification.
+6. [**IPKS Access Control & Privacy Specification**](./specs/ipks-access-spec.md): Balances open access with privacy through permission models, encryption mechanisms, and "Knowledge Spaces" for governance, enabling public knowledge sharing while protecting sensitive information through credential-based access controls and selective disclosure techniques.
