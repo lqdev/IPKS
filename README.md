@@ -1,6 +1,6 @@
 # InterPlanetary Knowledge System (IPKS)
 
-**NOTE: The content in these specifications was generated using Claude Sonnet 3.7. with Web Search**
+**NOTE: The content in these specifications was generated using Claude Sonnet 3.7 with Web Search**
 
 IPKS (InterPlanetary Knowledge System) is a protocol suite that extends IPFS to create a distributed knowledge network where information is semantically connected, cryptographically verified, expertise-validated, and governed through flexible access controls, transforming the document-centric web into an idea-centric internet.
 
